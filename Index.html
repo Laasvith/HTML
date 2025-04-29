@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="style.css" rel="stylesheet" type="text/css">
+        <style>
+            div {
+                background: red;
+                padding: 10px;
+            }
+            div.first {
+                opacity: o.1;
+            }
+            div.second {
+                opacity: 0.3;
+            }
+            div.third {
+                opacity: 0.6;
+            }
+        </style>
     </head>
     <body>
-        <h1>Welcome to the space Esplorer's clubs.</h1>
-        <ul>
-            <li>Moon Misson</li>
-            <li>Mars Rovars</li>
-            <li>International Space Station</li>
-            <li>Telescopes and Stars</li>
-            <li>Black Holes Mystories</li>
-        </ul>
-        <p>Space xloration has always
-            captivated humens imagination,
-            it's a journey ot the unkown!
-        </p>
-        <p>From the moon to distant planets,
-            We continue to explore the vastness of space.
-        </p>
-        <a href="#">Join our Misson</a>
-        <a href="#">Latest Space News</a>
-        <a href="#">Gallery of the Universe</a>
+        <h1>The opacity Property</h1>
+        <p>This is how this property looks</p>
+        <div class="first"><p>opacity o.1</p></div>
+        <div class="second"><p>opacity o.3</p></div>
+        <div class="third"><p>opacity o.6</p></div>
+        <div><p>opacity 1 (default)</p></div>
     </body>
 </html>
